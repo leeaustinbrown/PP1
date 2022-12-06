@@ -1,12 +1,26 @@
-@import url('https://fonts.googleapis.com/css?family=Nerko One');
+@import url('https://fonts.googleapis.com/css?family=Nerko One|Klee One');
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: none;
 }
 
 body {
-    font-family: nerko one;
+    font-family: Klee One;
     font-weight: 100;
+    color: coral;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: Nerko One, Oswald;
+    letter-spacing: 1px;
+    color: crimson;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
 }
